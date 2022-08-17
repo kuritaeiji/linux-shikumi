@@ -1,0 +1,9 @@
+.lldb
+a.out.dSYM
+linux-in-practice/
+.bash_history
+.lesshst
+.python_history
+.viminfo
+a.out
+main.c

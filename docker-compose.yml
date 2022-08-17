@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  linux:
+    build:
+      context: .
+      args:
+        UID: $UID
+        USERNAME: $USERNAME
+    volumes:
+      - .:/home/$USERNAME
+    tty: true

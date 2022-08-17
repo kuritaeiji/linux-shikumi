@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "clang build active file",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "main.c"
+      ],
+      "group": {
+        "kind": "build", // ビルドタスク
+        "isDefault": true // cmd + shift + bでタスク実行できるようにする
+      }
+    }
+  ]
+}
